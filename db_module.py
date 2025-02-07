@@ -8,8 +8,8 @@ def connect_to_db():
     try:
         return psycopg2.connect(
             dbname="ocrdb",
-            user="shashi",
-            password="Shashi@11",
+            user="ocr",
+            password="ocr@11",
             host="localhost",
             port="5432"
         )
